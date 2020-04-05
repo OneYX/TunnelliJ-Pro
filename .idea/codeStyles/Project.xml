@@ -1,0 +1,8 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <MinBatis>
+      <option name="FORMAT_MAKER_OGNL" value="true" />
+      <option name="SIMPLE_STATEMENT_IN_ON_LINE" value="false" />
+    </MinBatis>
+  </code_scheme>
+</component>
