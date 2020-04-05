@@ -1,12 +1,17 @@
 <idea-plugin>
-    <id>TunnelPlugin</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <id>TunnelliJ-Pro</id>
+    <name>TunnelliJ-Pro</name>
+    <vendor email="pingdongyi@gmail.com" url="http://oneyx.github.io">None</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+        TunnelliJ-Pro plugin works as a TCP tunnel and it useful for any network development.
+		It allows you to monitor, sniff TCP connections and display the content in a very
+		effective way inside your IDE.
     ]]></description>
+
+    <version>$TUNNELLIJ_VERSION$</version>
+    
+    <idea-version since-build="3000"/>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->

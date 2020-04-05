@@ -28,7 +28,7 @@ dependencies {
 
 processResources {
     from(sourceSets.main.resources.srcDirs) {
-        filesMatching(['**/*.properties', '**/*.txt']) {
+        filesMatching(['**/*.properties', '**/*.txt', '**/*.xml']) {
             filter(ReplaceTokens, tokens: ['TUNNELLIJ_VERSION': version], beginToken: '$', endToken: '$')
         }
     }
