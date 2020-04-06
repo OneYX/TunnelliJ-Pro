@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'net.boruvka.idea.tunnellij'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 sourceCompatibility = 1.8
 
@@ -38,6 +38,12 @@ processResources {
 intellij {
     version '2019.3.4'
 }
+
+publishPlugin {
+    channels 'beta'
+    token intellijPublishToken
+}
+
 patchPluginXml {
     changeNotes """
       Add change notes here.<br>

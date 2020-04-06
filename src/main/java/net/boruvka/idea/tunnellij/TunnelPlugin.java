@@ -25,7 +25,7 @@ public class TunnelPlugin implements ProjectComponent {
 
     private static final String COMPONENT_NAME = "net.boruvka.idea.tunnellij.TunnelWindow";
 
-    private static final String TOOL_WINDOW_ID = TunnelBundle.getBundle().getString("TunnelliJ.version");
+    private static final String TOOL_WINDOW_ID = TunnelBundle.getBundle().getString("TunnelliJ.name");
 
     private Project project;
 
